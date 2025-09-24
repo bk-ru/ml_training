@@ -90,3 +90,4 @@ def generate_session(env, policy, t_max=int(10**4)):
         s = new_s
         if done:
             break
+    return states, actions, total_reward
